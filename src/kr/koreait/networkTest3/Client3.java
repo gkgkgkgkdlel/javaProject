@@ -148,6 +148,7 @@ public class Client3 extends Frame implements ActionListener, Runnable {
 			} catch(NoSuchElementException e) {
 				break;
 			}
+			//
 		
 //			서버에서 전송된 메시지를 서버 채팅창에 표시한다.
 			if(str.length() > 0) {
